@@ -1,0 +1,80 @@
+*{
+margin:0px;
+padding:0px;
+}
+img.back {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+	 opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+h2.inside{
+margin:0;
+background-color:orange;
+color:white;
+text-align:center;
+word-spacing:10px;
+height:45px;
+padding:15px 0 0 0;
+}
+.fullbox
+{
+ height:450px;
+    width: 850px;
+	padding:0;
+    border: 3px solid #800000;
+    background-color:#f1f1f1;
+    border-collapse:collapse;
+	margin:50px 190px;
+	overflow:auto;
+	}
+
+.fullbox input[type=text], select , input[type=date]{
+    width: 90%;
+    padding: 10px 10px;
+    margin: 15px 10px 15px 12px ;
+    display:inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+	}
+	.fullbox table{
+		margin:auto;
+		margin-top:50px;
+	}
+	.top{ 
+background-color:#800000;
+color:white;
+padding:10px 1px 1px 1px;
+height:45px;
+}
+input[type=submit] {
+    width: 200px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	
+    }
+input[type=button] {
+    width: 200px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+	
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+input[type=button]:hover {
+    background-color: #45a049;
+}
